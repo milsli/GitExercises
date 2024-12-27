@@ -5,6 +5,10 @@
 using namespace std;
 
 
+string masterFromGit2()
+{
+    return "\nJestem na masterze GitTheSecond\n";
+}
 
 string naMasterze()
 {
@@ -14,7 +18,7 @@ string naMasterze()
 int main()
 {
     Addings adds;
-    cout << naMasterze();
+    cout << masterFromGit2();
 
     return 0;
 }
