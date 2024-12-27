@@ -5,6 +5,7 @@ class Addings
 {
 public:
     Addings();
+    ~Addings();
 };
 
 #endif // ADDINGS_H
