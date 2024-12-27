@@ -11,10 +11,15 @@ string naMasterze()
     return "\nJestem na masterze\n";
 }
 
+string naGaleziAddings()
+{
+    return "\nJestem na Addings\n";
+}
+
 int main()
 {
+    cout << naGaleziAddings();
     Addings adds;
-    cout << naMasterze();
 
     return 0;
 }
