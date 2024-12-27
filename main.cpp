@@ -1,7 +1,10 @@
 #include <iostream>
 #include <string>
+#include "addings.h"
 
 using namespace std;
+
+
 
 string naMasterze()
 {
@@ -10,6 +13,7 @@ string naMasterze()
 
 int main()
 {
+    Addings adds;
     cout << naMasterze();
 
     return 0;
