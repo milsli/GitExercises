@@ -5,6 +5,10 @@
 using namespace std;
 
 
+string masterFromGit2()
+{
+    return "\nJestem na masterze w kalatogu \"GitTheSecond\"\n";
+}
 
 string naMasterze()
 {
